@@ -1,0 +1,105 @@
+.package{
+    background-color: #FFFFFF;
+
+}
+
+.package-container{
+    display:flex;
+    justify-content: space-around;
+    padding: 96px 30px;
+    
+ 
+}
+
+.package-left{
+   width: 500px;
+}
+
+.package-left h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    position: relative;
+ 
+}
+.package-left h2::before{
+    position: absolute;
+    content: '';
+    background-color: #E74040;
+    top:-30px;
+    left:4px;
+    width:94px;
+    height: 7px;
+}
+.package-left p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    width: 345px;
+   
+}
+.pack-btn{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #96BB7C;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    padding-top: 10px;
+
+} 
+.pack-btn img{
+    width:8px;
+    height: 10px;
+    margin-left: 10px;
+}
+.package-right{
+    display: flex;
+    gap:20px
+}
+.single-package{
+    padding:40px;
+    box-shadow: 0px 6px 10px rgb(202, 201, 201);
+    
+}
+.single-package img{
+    background-color:#96BB7C;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+.single-package h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    position: relative;
+   
+}
+.single-package h5::after{
+    position: absolute;
+    content: '';
+    background-color:#E74040;
+    top:36px;
+    left:0px;
+    width:50px;
+    height: 2px;
+ 
+}
+.single-package p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.24px;
+    color: #737373;
+    width: 150px;
+   
+}

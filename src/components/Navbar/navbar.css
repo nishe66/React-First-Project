@@ -1,0 +1,102 @@
+.navbar{
+    background-color: #FFF2F3;
+    
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 240px;
+    
+}
+.header-left{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.logo-name a{
+    text-decoration: none;
+    color: #252B42;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+   
+}
+.navbar-area ul{
+    display: flex;
+}
+.navbar-area ul li{
+    list-style: none;
+}
+
+.navbar-area ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:#737373;
+    margin-right: 15px;
+   
+}
+
+.login a{
+   text-decoration: none;
+   font-size: 14px;
+   font-weight: 700;
+   line-height: 22px;
+   letter-spacing: 0.2px;
+   color:#96BB7C;
+}
+
+.header-right {
+    display: flex;
+    gap:40px;
+    align-items: center;
+    justify-content: center;
+}
+    
+.join-us a{
+    display:inline-flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    background-color: #96BB7C;
+    border-radius: 5px;
+  
+}
+
+.join-us a img{
+    margin-left: 15px;
+    max-width: 12px;
+    max-height: 10px;
+    height: auto;
+}
+
+
+
+
+
+ 
+
+   
+
+
+ 
+
+
+
+
+
+
+    
+    

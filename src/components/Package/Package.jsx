@@ -15,7 +15,6 @@ const Pakage = () => {
                Newtonian mechanics </p>
                <a className='pack-btn'>Learn More <img src={Img} alt="image not found" /> </a>
          </div>
-
          <div className='package-right'>
            <div className='single-package'>
             <img  src={cImg} alt="" />
@@ -35,8 +34,7 @@ const Pakage = () => {
           
          </div>
  
-      
-    </section>
+      </section>
   )
 }
 

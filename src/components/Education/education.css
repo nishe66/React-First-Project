@@ -1,0 +1,12 @@
+.education-parent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 90px 20px;
+    gap: 30px;
+}
+
+

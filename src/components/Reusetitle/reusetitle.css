@@ -1,0 +1,37 @@
+.reuse-title{
+    max-width: 500px;
+    margin-left: 360px; ;
+}
+.title-parent h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #96BB7C;
+}
+.title-parent h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-top: -28px;
+}
+.title-parent p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: -20px;
+
+}
+/* -----Responsive Design------- */
+@media (max-width: 1024px) {
+    .reuse-title {
+        margin-left: auto; 
+        margin-right: auto;
+        text-align: center;
+        padding: 0 20px;
+    }
+}

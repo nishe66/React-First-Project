@@ -1,0 +1,14 @@
+.affordable-container{
+    padding:80px 0;
+}
+.affordable-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    height: auto;
+    gap:20px;
+    align-items: center;
+    justify-content:space-around;
+    padding:50px 20px;
+    margin: 0 auto;
+}

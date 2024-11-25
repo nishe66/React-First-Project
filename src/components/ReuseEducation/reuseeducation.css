@@ -1,0 +1,35 @@
+.education-wrapper{
+  text-align: center;
+  border-radius: 20px;
+  box-shadow:  0px 6px 10px rgb(202, 201, 201);
+}
+.education-wrapper img{
+   width: auto;
+   height: auto;
+   border-radius: 20px 20px 0 0;
+}
+.education-wrapper h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.education-wrapper p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color:#737373;
+    margin-top: -12px;
+}
+.edu-icon{
+  padding-bottom: 20px;
+  
+} 
+.edu-icon span{
+   font-size: 24px;
+   margin-right: 10px;
+   color:#96BB7C;
+ 
+}

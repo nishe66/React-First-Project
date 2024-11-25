@@ -22,8 +22,7 @@ const Navbar = () => {
 
           <div className='header-right'>
             <div className='login'>
-              
-              <a href="">Login</a>
+             <a href="">Login</a>
               
             </div>
             <div className='join-us'>
@@ -33,9 +32,11 @@ const Navbar = () => {
           </div>
        </div>
 
-
-    </section> 
+       </section> 
   )
 }
 
 export default Navbar
+
+
+

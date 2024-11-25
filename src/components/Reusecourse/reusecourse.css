@@ -1,0 +1,45 @@
+.course-wrapper{
+    width: 300px;
+    text-align: center;
+}
+
+.desinger-img{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+.course-wrapper p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+.course-wrapper h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    margin-top: 10px;
+
+}
+.course-wrapper h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-top: -20px;
+
+}
+.designer-rating img{
+    margin-right: 8px;
+}
+/* ----Responsive Design---- */
+@media (max-width: 480px){
+    .course-wrapper{
+        width: 280px;
+    }
+}

@@ -1,0 +1,32 @@
+.contact-container{
+    background-color: #FAFAFA;
+}
+.contact-link{
+    max-width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding:0 30px;
+    align-items: center;
+}
+.contact-left h6{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+.contact-right span{
+    font-size: 24px;
+    color:#96BB7C;
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .contact-link {
+        flex-direction: column; 
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    
+}

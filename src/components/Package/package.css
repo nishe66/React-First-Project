@@ -1,20 +1,17 @@
 .package{
     background-color: #FFFFFF;
-
+    padding-top:50px;
 }
-
 .package-container{
     display:flex;
+    max-width: 1250px;
+    margin: 0 auto;
     justify-content: space-around;
-    padding: 96px 30px;
-    
- 
+    padding: 96px 50px;
 }
-
 .package-left{
-   width: 500px;
+   max-width: 500px;
 }
-
 .package-left h2{
     font-size: 40px;
     font-weight: 700;
@@ -22,8 +19,7 @@
     letter-spacing: 0.2px;
     color: #252B42;
     position: relative;
- 
-}
+ }
 .package-left h2::before{
     position: absolute;
     content: '';
@@ -39,7 +35,7 @@
     line-height: 20px;
     letter-spacing: 0.2px;
     color: #737373;
-    width: 345px;
+    max-width: 345px;
    
 }
 .pack-btn{
@@ -53,7 +49,6 @@
     display: inline-flex;
     align-items: center;
     padding-top: 10px;
-
 } 
 .pack-btn img{
     width:8px;
@@ -61,13 +56,14 @@
     margin-left: 10px;
 }
 .package-right{
+    max-width: 500px;
     display: flex;
     gap:20px
 }
 .single-package{
+    width: 200px;
     padding:40px;
     box-shadow: 0px 6px 10px rgb(202, 201, 201);
-    
 }
 .single-package img{
     background-color:#96BB7C;
@@ -88,18 +84,44 @@
     position: absolute;
     content: '';
     background-color:#E74040;
-    top:36px;
+    top:40px;
     left:0px;
     width:50px;
     height: 2px;
- 
-}
+ }
 .single-package p{
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: 0.24px;
     color: #737373;
-    width: 150px;
-   
+    max-width: 150px;
+    
+}
+/* -----Responsive Design------ */
+@media (max-width: 850px){
+    .package-container{
+        flex-wrap: wrap;
+    }
+    .package-left{
+        padding-bottom: 20px;
+    }
+}
+@media (max-width: 950px){
+    .package-container{
+       gap: 15px;
+       padding-left:20px;
+       padding-right:20px;
+       }
+    }
+@media (max-width: 485px){
+    .package-container{
+        justify-content: center;
+    }
+    .package-right{
+       flex-wrap: wrap;
+       padding-right: 10px;
+     
+    }
+
 }

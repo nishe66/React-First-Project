@@ -1,0 +1,17 @@
+.course-parent{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: 0 auto;
+    justify-content:space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 80px 30px 96px 30px;
+}
+
+/* ---Responsive Design----- */
+@media (max-width: 800px){
+    .course-parent{
+          gap: 50px;
+        }
+    }       

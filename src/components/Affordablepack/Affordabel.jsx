@@ -1,5 +1,5 @@
 import React from 'react'
-import Reusepackage from '../ReusePackage/Reusepackage'
+import Reusepackage from '../Reusepackage/Reusepackage'
 import imge from "../../assets/productcover.png"
 import fiximge from "../../assets/fixedwidth.png"
 import borderimge from "../../assets/rightborder.png"

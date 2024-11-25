@@ -120,7 +120,6 @@
     }
     .package-right{
        flex-wrap: wrap;
-       padding-right: 10px;
        align-items: center;
        justify-content: center;
      

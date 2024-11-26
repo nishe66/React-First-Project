@@ -1,7 +1,7 @@
 .course-parent{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1250px;
+    max-width: 1200px;
     margin: 0 auto;
     justify-content:space-around;
     align-items: center;

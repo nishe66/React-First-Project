@@ -1,14 +1,11 @@
-.footer-container{
-    padding: 50px 20px 20px 20px;
-}
 .footer-parent{
-    max-width: 1250px; 
+    max-width: 1200px; 
     margin: 0 auto;
     display: flex;
     gap:20px;
     flex-wrap: wrap; 
     justify-content:space-between;
-    padding: 40px 20px;
+    padding: 40px 30px;
 }
 .single-item-footer{
     max-width:220px;

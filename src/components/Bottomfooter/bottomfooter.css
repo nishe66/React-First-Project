@@ -1,8 +1,8 @@
-.contact-container{
+.contact-area{
     background-color: #FAFAFA;
 }
 .contact-link{
-    max-width: 1250px;
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;

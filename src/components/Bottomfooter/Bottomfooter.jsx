@@ -6,7 +6,7 @@ import './bottomfooter.css'
 
 const Bottomfooter = () => {
   return (
-    <section className='contact-container'>
+    <section className='contact-area'>
     <div className='contact-link'>
       <div className='contact-left'>
       <h6>Made With Love By Figmaland All Right Reserved </h6>

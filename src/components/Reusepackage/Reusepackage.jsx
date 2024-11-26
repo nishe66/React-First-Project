@@ -12,7 +12,7 @@ import './reusepackage.css'
 
 const Reusepackage = (props) => {
   return (
-   <section className='course-container'>
+   <div className='course-area-container'>
     <div className='course-package'>
       <div className='imge-div'>
         <img src={props.courseimg} alt="" />
@@ -50,7 +50,7 @@ const Reusepackage = (props) => {
     <div className='border-line'> <img src={props.lineimg} alt="" /></div>
     </div>
    
-   </section>
+   </div>
   )
 }
 

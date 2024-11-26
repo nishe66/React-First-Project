@@ -12,7 +12,7 @@ import Reusetitle from '../Reusetitle/Reusetitle'
 
 const Affordabel = () => {
   return (
-    <section className='affordable-container'>
+    <section className='affordable-area'>
     <div className='affordable-title'>
        <Reusetitle title="Practice Advice" heading="Approdable Packages" description="Problems trying to resolve the conflict between 
       the two major realms of Classical physics: Newtonian mechanics"/>

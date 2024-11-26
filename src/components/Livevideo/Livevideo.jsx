@@ -4,7 +4,7 @@ import Img from "../../assets/arrow.png"
 import './livevideo.css'
 const Livevideo = () => {
   return (
-    <section className='video-container'>
+    <section className='video-area'>
           <div className='video-wrapper'>
           <div className='video-left'>
            <img src={veimg} alt="" />

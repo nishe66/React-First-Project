@@ -6,8 +6,8 @@ import './course.css'
 import Reusetitle from '../Reusetitle/Reusetitle'
 const Course = () => {
   return (
-    <section className='course-container'>
-        <div className='course-title'>
+    <section className='course-area'>
+      <div className='course-title'>
           <Reusetitle title="Testimonials" heading="Watch our Courses" description="Problems trying to resolve the conflict between 
           the two major realms of Classical physics: Newtonian mechanics"/>
         </div>
@@ -15,6 +15,7 @@ const Course = () => {
       <Reusecourse designerimg={dimgef}/>
       <Reusecourse designerimg={dimgem}/>
     </div>
+   
     </section>
   )
 }

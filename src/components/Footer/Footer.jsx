@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 import './footer.css'
 const Footer = () => {
   return (
-    <section className='footer-container'>
+    <section className='footer'>
        <footer className='footer-parent'>
         <div className='single-item-footer'>
          <h5>Company Info</h5>

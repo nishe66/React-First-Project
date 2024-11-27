@@ -1,6 +1,7 @@
 .reuse-title{
     max-width: 500px;
-    margin-left: 290px; ;
+    margin-left: 290px;
+    padding-top: 30px;
 }
 .title-parent h6{
     font-size: 14px;
